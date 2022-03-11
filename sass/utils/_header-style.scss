@@ -1,0 +1,18 @@
+@media screen and (max-width: 1199px) {
+  .second-header {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .second-header {
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
+}
+.second-header {
+  color: var(--header-text-color);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
