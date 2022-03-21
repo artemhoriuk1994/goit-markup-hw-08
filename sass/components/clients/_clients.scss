@@ -5,6 +5,9 @@
   .clients__item:nth-child(-n + 5) {
     margin-bottom: 30px;
   }
+  .clients__item:nth-child(2n) {
+    margin-left: 10px;
+  }
 }
 @media screen and (min-width: 480px) {
   .clients__list {
@@ -21,7 +24,7 @@
     max-width: 450px;
   }
   .clients__link {
-    width: 210px;
+    width: 200px;
   }
   .clients__item:nth-child(-n + 4) {
     margin-bottom: 30px;
